@@ -6,18 +6,18 @@
       The program will consider  only the first non-empty variable in this order - $tdsProjectsSourceFolderPath, $commaSeparatedTDSProjectPaths
       e.g.: $tdsProjectsSourceFolderPath = "D:\Projects\MyProject\src"
 #>
-$global:tdsProjectsSourceFolderPath = "D:\Projects\External\Keppel\src"; #"D:\Projects\External\Keppel\src"; 
+$global:tdsProjectsSourceFolderPath = ""; 
 
 <# 2. Add comma separated TDS project paths. 
       The program will consider this variable value if $tdsProjectsSourceFolderPath is empty.
       e.g.: $commaSeparatedTDSProjectPaths = "D:\Projects\MyProject\src\Feature\MyProject.Feature.Accounts.Master\MyProject.Feature.Accounts.Master.scproj,D:\Projects\MyProject\src\Feature\MyProject.Feature.Navigation.Master\MyProject.Feature.Navigation.Master.scproj"
 #>
-$global:commaSeparatedTDSProjectPaths = "D:\OneDrive - Ogilvy\_SUKESH\_WORK\_2022\Keppel Land\Tickets\KPL-128\Keppel.Project.KeppelVietnam.Master.scproj";
+$global:commaSeparatedTDSProjectPaths = "";
 
 <# 3. Specify the destination folder path where the CLI Json module files should be created.
        e.g.: $cliJsonModulesDirectory = "D:\Projects\MyProject\src\SCS\Modules"
 #>
-$global:cliJsonModulesDirectory = "D:\OneDrive - Ogilvy\_SUKESH\_WORK\_2022\Keppel Land\Tickets\KPL-128\SCS\Modules";
+$global:cliJsonModulesDirectory = "";
 
 <# $exclusionList: This is a list of items, if found in any of the TDS projects, will not be added to the module.json.
 #>
