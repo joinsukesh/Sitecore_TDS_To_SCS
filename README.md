@@ -18,11 +18,13 @@ This powershell script can be used to read the _*.scproj_ TDS project files and 
 ### CONS
 1. The generated json file will not have the _"references"_ & "alias" properties.
    
-![image](https://github.com/joinsukesh/Sitecore_TDS_To_SCS/assets/24619393/14ea1fa6-b533-40ff-9a67-c4ba2b498fe4)
+![image](https://github.com/joinsukesh/Sitecore_TDS_To_SCS/assets/24619393/64f35abf-bf8e-4fd5-a747-f82bc55ad8ca)
 
 
 
-![image](https://github.com/joinsukesh/Sitecore_TDS_To_SCS/assets/24619393/2515ec6b-58f7-434c-aa54-cc4640859930)
+
+![image](https://github.com/joinsukesh/Sitecore_TDS_To_SCS/assets/24619393/272b027f-4350-41e8-b47a-864652fcab92)
+
 
 
 
