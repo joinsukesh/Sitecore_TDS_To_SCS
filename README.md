@@ -11,6 +11,9 @@ This powershell script can be used to read the _*.scproj_ TDS project files and 
    - _$global:cliJsonModulesDirectory_
   
 2. Execute the script
+3. Test ([Courtesy: Converting a TDS project to Sitecore Content Serialization (SCS)](https://community.sitecore.com/community?id=community_Blog&sys_id=9390c8a91b76359438a46421b24bcb40))
+   - **Run a validation of your config:** The _sitecore ser validate_ command can be used to look for any problems in your config. If any are found, you can then run _sitecore ser validate –fix_ to fix common problems. See the [docs on validation](https://doc.sitecore.com/xmc/en/developers/xm-cloud/validate-serialized-content-items.html). 
+   - **Get a sync explanation report:** By using the sitecore ser explain command, you can get detailed information on why certain paths are included in the sync. See the docs on the explain [subcommand](https://doc.sitecore.com/xmc/en/developers/xm-cloud/the-cli-serialization-command.html#the-explain-subcommand). 
 
 ## PROS
 1. Generates the *.module.json files in a few mintues.
