@@ -243,6 +243,7 @@ function Get-ModuleIncludeBlockObjectsFromTdsProject {
                 switch ($item.ChildItemSynchronization) {
                     "NoChildSynchronization" { $scope = "SingleItem" }
                     "KeepAllChildrenSynchronized" { $scope = "ItemAndDescendants" }
+                    "KeepDirectDescendantsSynchronized" { $scope = "ItemAndChildren" }
                     default { throw (New-Object System.Exception "Could not analyze this Scope - $($item.ItemDeployment) for this item -  $($path)") }
                 }
 
