@@ -4,6 +4,9 @@ Motivated by Aaron Bickle's [script](https://gist.github.com/bic742/f77783c64342
 This powershell script can be used to read the _*.scproj_ TDS project files and create corresponding _*.module.json_ files which will be used in Sitecore Content Serialization.
 
 ## How to use
+
+### NOTE: Do not test this on your existing realtime project. Instead, clone it to another folder and ten execute this script for the cloned project and heck if it works for you.
+
 1. Declare the values for these variables in the _Get-ModuleJsonFromTdsProjects.ps1_ script file. The description for each variable is specified in the script file
 
    - _$global:tdsProjectsSourceFolderPath_
